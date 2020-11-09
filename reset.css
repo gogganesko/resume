@@ -1,0 +1,49 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+BODY {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'cofo';
+    line-height: 1.5;
+    background: #F6F6F6;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+H1, H2, H3, H4, H5, H6, P, A, OL, UL, LI,
+INPUT, TEXTAREA, SELECT, BUTTON {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    line-height: normal;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+INPUT, TEXTAREA, SELECT, BUTTON {
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+INPUT:focus, TEXTAREA:focus, SELECT:focus, BUTTON:focus {
+    outline: none
+}
+
+UL, OL {
+    list-style: none;
+}
+
+BUTTON {
+    cursor: pointer;
+}
